@@ -12,5 +12,7 @@
             "src": "/(.*)",
             "dest": "/public/index.php"
         }
-    ]
+    ],
+    
+    "buildCommand": "composer install --no-dev && npm install && npm run build"
 }
